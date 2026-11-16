@@ -118,7 +118,7 @@ function PaletteDialog({ onClose }: { onClose: () => void }) {
     };
   }, []);
 
-  const otherLang: I18nLocales = lang === 'en' ? 'id' : 'en';
+  const otherLang: I18nLocales = lang === 'id' ? 'en' : 'id';
 
   const items = useMemo<PaletteItem[]>(() => {
     const go = (href: string) => () => {
