@@ -16,17 +16,17 @@ const supportLinks = [
   },
   {
     label: 'Ko-fi',
-    url: 'https://ko-fi.com/gadingnst',
+    url: 'https://ko-fi.com/sudarblogger',
     className: 'bg-[#29ABE0] shadow-sky-400'
   },
   {
     label: 'Trakteer',
-    url: 'https://trakteer.id/gadingnst',
+    url: 'https://trakteer.id/sudarblogger',
     className: 'bg-[#FF4646] shadow-red-400'
   },
   {
     label: 'Karyakarsa',
-    url: 'https://karyakarsa.com/gadingnst',
+    url: 'https://saweria.co/Sudarmanto',
     className: 'bg-[#FFB800] shadow-yellow-400'
   }
 ];
