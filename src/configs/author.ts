@@ -1,5 +1,5 @@
-export const AUTHOR_NAME = 'Gading Nasution.';
-export const AUTHOR_FULLNAME = 'Sutan Gading Fadhillah Nasution';
+export const AUTHOR_NAME = 'Blog Kang Sudar';
+export const AUTHOR_FULLNAME = 'Nauval Sudarmanto';
 export const AUTHOR_EMAIL = 'contact@gading.dev';
 
 /** social media */
