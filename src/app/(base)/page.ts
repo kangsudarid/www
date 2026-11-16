@@ -11,7 +11,7 @@ export const dynamicParams = false;
 export const generateStaticParams = generateHomePathsDefault;
 
 export const generateMetadata = withGenerateMetadata(async() => {
-  const { meta } = await getContentMultiLanguage('home', 'en');
+  const { meta } = await getContentMultiLanguage('home', 'id');
   return metadataBuilder({
     meta: {
       title: AUTHOR_NAME,
