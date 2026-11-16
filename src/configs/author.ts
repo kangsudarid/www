@@ -1,4 +1,4 @@
-export const AUTHOR_NAME = 'Blog Kang Sudar';
+export const AUTHOR_NAME = 'Sudar Blogger';
 export const AUTHOR_FULLNAME = 'Nauval Sudarmanto';
 export const AUTHOR_EMAIL = 'contact@gading.dev';
 
