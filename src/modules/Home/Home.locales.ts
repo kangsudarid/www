@@ -14,8 +14,8 @@ const withHomeLocales = createContentLocales({
     id: 'what broke.'
   },
   lead: {
-    en: 'Software engineer from Palembang. I built [Nouride](https://nouride.com), founded [Nouverse](https://nouverse.com), and work at an AI company. I tinker with my homelab, and it breaks more often than not because I can\'t leave it alone.',
-    id: 'Software engineer dari Palembang. Bikin [Nouride](https://nouride.com), bangun [Nouverse](https://nouverse.com), dan kerja di AI company. Suka ngoprek homelab, tapi lebih sering rusak gara-gara ngulik sendiri.'
+    en: 'Let me introduce myself, Nauval Sudarmanto. This blog is about stories of experiences and sharing exciting places.',
+    id: 'Perkenalkan Saya Nauval Sudarmanto. Blog ini adalah cerita tentang pengalaman dan share tempat yang seru.'
   },
   seeWork: {
     en: 'See my work',
