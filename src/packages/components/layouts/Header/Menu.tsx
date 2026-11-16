@@ -50,7 +50,7 @@ function useIsActiveRoute() {
 
   return (route: string): boolean => {
     if (route === '/') {
-      return pathname === '/' || pathname === `/${currentLang}` || pathname === '/en' || pathname === '/id';
+      return pathname === '/' || pathname === `/${currentLang}` || pathname === '/id' || pathname === '/en';
     }
     return pathname?.includes(route) || false;
   };
