@@ -2,12 +2,12 @@ import createContentLocales from '@/packages/libs/I18n/locales';
 
 const withHomeLocales = createContentLocales({
   greeting: {
-    en: 'hey, I\'m Gading 👋',
-    id: 'hey, I\'m Gading 👋'
+    en: 'hey, I\'m Sudar 👋',
+    id: 'hey, I\'m Sudar 👋'
   },
   headlineStart: {
-    en: 'I build systems, then write about ',
-    id: 'I build systems, then write about '
+    en: 'I Blogger Traveller and Creator ',
+    id: 'I I Blogger Traveller and Creator'
   },
   headlineAccent: {
     en: 'what broke.',
@@ -38,8 +38,8 @@ const withHomeLocales = createContentLocales({
     id: 'sekarang'
   },
   statusPlace: {
-    en: 'Palembang, WIB',
-    id: 'Palembang, WIB'
+    en: 'Lamongan, WIB',
+    id: 'Lamongan, WIB'
   },
   doodle: {
     en: 'it\'s me, hi!',
@@ -58,7 +58,7 @@ const withHomeLocales = createContentLocales({
     id: 'Portfolio lengkap →'
   },
   writingTitle: {
-    en: 'Latest writing',
+    en: 'Latest news',
     id: 'Tulisan terbaru'
   },
   writingHand: {
