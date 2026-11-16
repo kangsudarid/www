@@ -7,7 +7,7 @@ const withHomeLocales = createContentLocales({
   },
   headlineStart: {
     en: 'I Blogger Traveller and Creator ',
-    id: 'I I Blogger Traveller and Creator'
+    id: 'I Blogger Traveller and Creator '
   },
   headlineAccent: {
     en: 'what broke.',
