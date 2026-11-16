@@ -3,7 +3,7 @@ import { I18n, I18nLocales } from './interface';
 /**
  * Get default language (English)
  */
-export const getDefaultLanguage = (): I18nLocales => 'id';
+export const getDefaultLanguage = (): I18nLocales => 'en';
 
 /**
  * Get all available languages
