@@ -1,0 +1,44 @@
+---
+title: 'Mulai Redesaign Blog'
+slug: {
+  en: null,
+  id: 'redesaign-blog'
+}
+date: 2026-11-23
+description: 'Bosan Dengan Template Lama Akhirnya Coab Fork Template orang'
+keywords: 'cloudflare, ssg, blogger, artikel, vercel, nextjs'
+tags: ['nextjs', 'vercel']
+image: '/media/blog/mulai-redesaign-blog/sampul.jpg'
+---
+
+Setelah Sekian lama tidak menulis akhir saya ingin menulis kembali hampir setahun juga blog ini ngaggur bahkan tidak saya apa - apakan, tiba- tiba ada notifikasi perpanjangan blog. 
+
+Karena bosen dengan yang lama akhirnya mencoba mengubah tampilan blog ini, template ini yang saya pakai adalah karya mas gading, karena open source jadi saya ambil aja template nya
+
+Untuk satu tahun ini memang saya menggunakan Cloudflare Page terus untuk Framwork nya menggunakan Astro. 
+
+Namun karena template ini menggunakan Nextjs jadi harus memindah blog ini ke Vercel yang mana hosting disana juga sangat populer. 
+
+## Kenapa Memakai Karya Gading.dev? 
+
+Karena template ini mewakili personal blog yang mana ada fitur blog buat menulis, project untuk share karya dan masih nyak lagi, jujur saja saya sebenar nya tidak bisa membuat template karena juga masih mempelajari jadi ya kalau ada open source saya ambil template tersebut. 
+
+## Perbandingan Astro & Nexjs! 
+
+Perbedaan paling mendasar antara Astro dan Next.js adalah content-first (berfokus pada konten) vs. app-first (berfokus pada aplikasi). Keduanya adalah framework web modern yang sangat mumpuni, tetapi memiliki pendekatan bawaan yang berbeda:
+ 
+- Astro dirancang untuk publikasi dan kecepatan. Secara bawaan, Astro merender halaman menjadi HTML murni dan mengirimkan 0 KB JavaScript ke browser, kecuali Anda secara eksplisit mengaktifkan komponen interaktif (islands).
+- Next.js dirancang untuk aplikasi web yang interaktif. Sangat terikat dengan ekosistem React, Next.js unggul dalam menangani UI dengan state yang kompleks, autentikasi, data real-time, Server Actions, dan kontrol rendering yang mendetail.
+
+**Perbandingan Langsung**
+
+| Aspek | Astro | Next.js |
+|---|---|---|
+| Fokus Utama | Content-first (dokumen, halaman statis, kecepatan akses) | App-first (UI interaktif, alur kerja full-stack) |
+| JavaScript Bawaan | 0 KB secara default; hydration hanya pada islands yang dipilih | Memuat runtime React (lebih ringan dengan Server Components, tapi membesar seiring bertambahnya interaktivitas) |
+| Dukungan Framework UI | Bebas framework (bisa menggabungkan React, Vue, Svelte, Solid, atau .astro biasa) | Khusus React (menggunakan App Router, Server Components, dan ekosistem React) |
+| Mode Rendering | Statis (SSG), SSR sesuai kebutuhan via adapter, Content Layer, dan Server Islands | Statis, SSR, streaming dengan Suspense, caching/revalidation, serta Route Handlers/Server Actions |
+| Keunggulan Core Web Vitals | Sangat mudah mendapatkan skor tinggi secara bawaan pada situs konten/mobile karena minim JS | Sangat cepat jika dikonfigurasi dengan tepat (Server Components & caching), namun butuh perhatian lebih |
+| Hosting & Infrastruktur | Umumnya murah karena bisa di-deploy sebagai file statis atau edge/server adapter (Cloudflare, Netlify, Vercel) | Sangat mulus di Vercel atau server Node/Docker, namun kompleksitas server meningkat seiring fitur aplikasi |
+
+Jika kalian mau pindah atau migrasi blog ke AstroJS atau ke Nexjs bisa lihat aja perbandingan yang di atas ini ya sobat. 
