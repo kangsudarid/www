@@ -11,6 +11,6 @@ export const DEFAULT_LOCALE = 'id';
 export const BLOG_PAGINATION_LIMIT = 10;
 
 export const GOOGLE_VERIFICATION_ID = 'eGOhdZjNeSLIBtMneyjMwoE3fg4c4';
-export const ANALYTICS_ID = '2cbe653a-beab-45ef-81d2-ebb51c23cf13';
+export const ANALYTICS_ID = 'f0f0dcd7-e5eb-490e-a3ce-6a183146109f';
 export const DISQUS_SHORTNAME = 'sudarblogger';
 export const CLOUDINARY_CLOUD_NAME = 'gadingnst';
