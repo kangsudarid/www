@@ -8,7 +8,7 @@ import RootLayout from '@/modules/Root.layout';
 import { withMetadata } from '@/packages/utils/metadata/metadata';
 
 export const metadata = withMetadata({
-  metadataBase: new URL('https://www.sudarblogger.com'),
+  metadataBase: new URL('https://www.sudar.web.id'),
   title: `${AUTHOR_NAME} | ${SITE_NAME}`,
   applicationName: SITE_NAME,
   appleWebApp: {
