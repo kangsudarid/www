@@ -97,9 +97,9 @@ function ProfileInfo() {
                 'hover:cursor-pointer hover:underline underline-offset-4 text-primary'
               )}
             >
-              Gading
+              Nauval
             </span>{' '}
-            Nasution
+            Sudarmanto
           </h3>
         </div>
         <RightDesc className="hidden md:flex" />
