@@ -20,7 +20,7 @@ function Footer() {
           <span className="inline-block">&copy;&nbsp;{currentYear}&nbsp;</span>
           <Link size="inherit" className="inline-block font-semibold" href={BASE_URL}>{SITE_NAME}</Link>
           <span className="mx-1 inline-block">&bull;</span>
-          <Link size="inherit" target="_blank" rel="noopener noreferrer" className="inline-block text-primary mx-0.5" href={`https://github.com/${AUTHOR_GITHUB}/gading.dev`}>Built</Link>
+          <Link size="inherit" target="_blank" rel="noopener noreferrer" className="inline-block text-primary mx-0.5" href={`https://github.com/${AUTHOR_GITHUB}/www`}>Built</Link>
           <span className="mx-0.5 inline-block">with</span>
           <span className="mx-0.5 inline-block border-b-2 border-dotted leading-tight">Bullshit</span>
           <span className="mx-0.5 inline-block">by</span>
@@ -28,7 +28,7 @@ function Footer() {
             {AUTHOR_NAME}
           </Link>
           <div className="mt-2">
-            <Link size="inherit" target="_blank" rel="noopener noreferrer" className="inline-block text-primary" href="https://analytic.gading.dev">
+            <Link size="inherit" target="_blank" rel="noopener noreferrer" className="inline-block text-primary" href="https://analytic.sudar.web.id">
               Analytic
             </Link>
             <span className="mx-1 inline-block">&bull;</span>
