@@ -133,7 +133,7 @@ function Hero({ lang, currently }: Props) {
           className="z-10 mt-[30px] -rotate-2 self-center rounded-[14px] bg-terminal px-4 py-3 font-mono text-[12.5px] leading-[1.7] text-[#F3ECE2] shadow-soft lg:absolute lg:-bottom-[22px] lg:-left-[70px] lg:mt-0 lg:-rotate-3"
         >
           <span className="text-[#5CC7B8]">$</span> whoami<br />
-          gading<br />
+          sudar<br />
           <span className="text-[#5CC7B8]">$</span> cat mood.txt<br />
           ngulik ☕<span className="text-[#A89C8E]"> # as usual</span>
         </div>
